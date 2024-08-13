@@ -4,7 +4,7 @@ import pg from 'pg';
 const { Client } = pg;
 
 // Define the connection string to connect to the PostgreSQL database
-const connectionString = 'postgresql://basedatos_postgresql_user:sqwLhN61zMBl9URhYQEJ18YT7Yu3amhl@dpg-cqkd3prqf0us73c7jgq0-a.oregon-postgres.render.com/basedatos_postgresql?ssl=true';
+const connectionString = 'postgresql://database_package_user:KyulR2m0S4RDkV4Df9EzfOEasHQscAEB@dpg-cqjrnbqj1k6c73a2n980-a.oregon-postgres.render.com/database_package?ssl=true';
 
 // Define an asynchronous function to query and display data from the empleados table
 async function queryData() {

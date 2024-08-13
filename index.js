@@ -2,7 +2,7 @@ import pg from 'pg'
 // Destructure Client class from the pg module
 const { Client } = pg
 // Define the connection string to connect to the PostgreSQL database
-const connectionString = 'postgresql://database_package_user:KyulR2m0S4RDkV4Df9EzfOEasHQscAEB@dpg-cqjrnbqj1k6c73a2n980-a.oregon-postgres.render.com/database_package?ssl=true'
+const connectionString = 'postgresql://database_package_user:KyulR2m0S4RDkV4Df9EzfOEasHQscAEB@dpg-cqjrnbqj1k6c73a2n980-a.oregon-postgres.render.com/database_package?ssl=true';
 // Create a new Client instance with the connection string
 const client = new Client({
 connectionString,
